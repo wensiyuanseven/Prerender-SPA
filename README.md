@@ -167,11 +167,8 @@
 尽量不要生成不带文件夹的html页面，会出现一些怪异的问题。
 尽量不要直接访问.html后缀的文件。因为.html后缀的文件内容是静态的，并且没有对应路由,也会造成渲染问题。
 
-## 项目地址
 
- [https://github.com/wensiyuanseven/prerender-spa](https://github.com/wensiyuanseven/prerender-spa)
-
-## 参考文章
+## 参考
 
 <https://github.com/chrisvfritz/prerender-spa-plugin>
 
