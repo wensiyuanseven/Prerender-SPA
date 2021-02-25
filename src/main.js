@@ -10,8 +10,8 @@ const Contact = { template: '<div><h2>Contact Page</h2></div>' }
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/about', component: About },
-  { path: '/contact', component: Contact }
+  { path: '/about*', component: About },
+  { path: '/contact*', component: Contact }
 ]
 
 const router = new VueRouter({
